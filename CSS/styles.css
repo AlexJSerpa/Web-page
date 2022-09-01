@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,500&display=swap');
+@import "mediaqueries.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/Arbol.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+}
+
+.navbar .menu{
+    grid-column: 6/9;
+    display: flex;
+    margin-top: 15px;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    margin-right: 3em;
+    font-size: 1.3em;
+    color: rgb(247, 243,243);
+    font-weight: 200;
+    padding: 10px 20px;
+}
+
+.menu li a:hover{
+    background-color: rgb(235, 63, 20);
+    transition: all -10s;
+    color: #000;
+}
