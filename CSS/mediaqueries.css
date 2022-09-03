@@ -18,9 +18,39 @@
     transition: all 1.4s;
 }
 .navbar .menu-toggle{
-    transform: translatey(0%);
+    transform: translateY(0%);
 }
 .menu li{
     margin-top: 3ems;
+}
+
+.navbar .menu-bar{
+    display: block;
+    font-size: 2em;
+    color: #fff;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    height: 70vh;
+}
+.main img{
+    width: 12em;
+}
+
+.main h1{
+    margin-top: 50px;/*subimos el texto*/
+}
+
+.main .button-content{/*Colocamos un botón sobre otro*/
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+
 }
 }
